@@ -1,9 +1,4 @@
- - Updated the Instagram icon link in `b/views/index.ejs` and added a new one in `b/index.html`
-- Changed the Instagram icon image source URL to "https://drive.google.com/uc?export=view&id=17Pk-solAeknhhLWCVJAVeCsNhPibts0x"
-- Updated CSS styles for the certificates section and the certificates' grid layout at `b/styles.css`
-- Modified the header and footer files with necessary changes related to the certificates section in `b/header.ejs` and `b/footer.ejs` respectively
-- Added a new file for storing certificate images at `b/certificate_images/`
-- Moved the Instagram icon image from `b/img/` to `b/views/index.ejs`
-- Updated the favicon image with a new design in `b/favicon.ico`
-- Added server configuration for serving static files from root directory (if applicable, based on provided file path)
+ - Updated Instagram icon image source in `b/index.html` and `b/views/index.ejs` to use a new URL: "https://drive.google.com/uc?export=view&id=17Pk-solAeknhhLWCVJAVeCsNhPibts0x"
+- Added a new directory for storing certificate images at `b/certificate_images/`
+- Modified server configuration to serve static files from the root directory by adding the following line in `b/server.js`: `app.use(express.static(path.join(__dirname)));` (if applicable, based on provided file path)
 

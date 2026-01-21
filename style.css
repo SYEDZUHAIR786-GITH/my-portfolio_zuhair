@@ -814,12 +814,27 @@ body {
         --spacing-xl: 2.5rem;
     }
 
-    .nav-links {
+    .nav-container {
+        flex-wrap: wrap;
         gap: var(--spacing-md);
     }
 
+    .nav-brand {
+        width: 100%;
+        font-size: var(--font-size-base);
+        margin-bottom: var(--spacing-sm);
+    }
+
+    .nav-links {
+        gap: var(--spacing-sm);
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+    }
+
     .nav-link {
-        font-size: var(--font-size-xs);
+        font-size: 0.75rem;
+        padding: var(--spacing-xs) var(--spacing-sm);
     }
 
     .hero {
@@ -832,13 +847,18 @@ body {
         height: 300px;
     }
 
+    .hero-content {
+        padding: 0;
+    }
+
     .profile-image {
-        width: 150px;
-        height: 150px;
+        width: 120px;
+        height: 120px;
     }
 
     .hero-title {
-        font-size: 2rem;
+        font-size: 1.5rem;
+        line-height: 1.2;
     }
 
     .hero-subtitle {
@@ -846,7 +866,7 @@ body {
     }
 
     .hero-description {
-        font-size: var(--font-size-base);
+        font-size: 0.95rem;
     }
 
     .cta-buttons {
@@ -857,6 +877,8 @@ body {
     .btn {
         width: 100%;
         justify-content: center;
+        font-size: 0.95rem;
+        padding: 1rem;
     }
 
     .section-title {
@@ -1223,6 +1245,29 @@ body {
 }
 
 @media (max-width: 480px) {
+    .nav-container {
+        flex-direction: column;
+        padding: var(--spacing-sm);
+    }
+
+    .nav-brand {
+        text-align: center;
+        width: 100%;
+        margin-bottom: var(--spacing-sm);
+        font-size: 0.95rem;
+    }
+
+    .nav-links {
+        gap: 0.5rem;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .nav-link {
+        font-size: 0.65rem;
+        padding: 0.4rem 0.6rem;
+    }
+
     .skills-grid,
     .contact-grid,
     .interests-grid,
