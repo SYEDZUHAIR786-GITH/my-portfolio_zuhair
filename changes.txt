@@ -1,21 +1,6 @@
 ++ b/changes.txt
 ++ b/changes.txt
 ++ b/commit_message.txt
- - Added a new section for showcasing completed certificates in `b/certificates.html`
-- Incorporated Full Stack (MERN) Traineeship certificate from Maiyyam in `b/certificates.html`
-- Included UI/UX Traineeship certificate from Maiyyam in `b/certificates.html`
-- Each certificate is displayed as an article in the projects grid with project header, description, technology badges, and link to view the certificate in `b/certificates.html`
-- Updated `b/changes.txt` for documentation purposes
-- Added necessary HTML, CSS, and JavaScript code for displaying the certificates in `b/certificates.html`
-- Modified `b/commit_message.txt` with updated details of changes made
-- Updated views/certificates.ejs for rendering the certificates on the page
-- Modified b/index.html and b/views/index.ejs with an image source update for Instagram icon link in `b/views/certificates.ejs`
-++ b/index.html
-                <img src="https://lh3.googleusercontent.com/rd-gg/AIJ2gl_3ZB_qRX_FIS2F9joyb-XntgAN_OzZlxN76KToWcwEBwwGKP0vLEpZI5hLJkHKrLo1h_3W_X2Po4jaGdenFt85QIYE6qr_fxGWUs5NyGZcYG10ADIRQZnF4OjdaQeP-HUw7exrt72Q2e90V3godThTWSZuwukScyUhkiPDpDJ1HPeflKvsydzWPwDVd8aOrhSAp7qyq_88sCOb7mrtroFSyHeIiUG0UD0YWp_ukuQYSnwlxc35Wvho1r_RlCTDXPKjZp0vX8Drky5OOQQ0qdTd1Xe_o8QBEVpP0e1vdYlBArJzjsyfpWVEZuhaLpVcid-pmPvkCjQpntoiR2uig_eQGOqymB2ec_uJjy_w0Hs_Ry-I3F1MPIjprTUaijQpVyDVxwofLdgRNI7T4nY1_DKhsSR9B-Uk13t4NUhzaHUgQybHISueNsR_J-Rbkr03t1Hrtbmu4AwFBcXz0fHn-0eBshkZxTVI1k5sj1sSzKgKSZv3VC8SESE0REUaKzZ9XB-rUHXD=s1024-rj" 
-                Frontend Developer | AI/ML Enthusiast | UI/UX Designer
-++ b/views/index.ejs
-                <img src="https://lh3.googleusercontent.com/rd-gg/AIJ2gl_3ZB_qRX_FIS2F9joyb-XntgAN_OzZlxN76KToWcwEBwwGKP0vLEpZI5hLJkHKrLo1h_3W_X2Po4jaGdenFt85QIYE6qr_fxGWUs5NyGZcYG10ADIRQZnF4OjdaQeP-HUw7exrt72Q2e90V3godThTWSZuwukScyUhkiPDpDJ1HPeflKvsydzWPwDVd8aOrhSAp7qyq_88sCOb7mrtroFSyHeIiUG0UD0YWp_ukuQYSnwlxc35Wvho1r_RlCTDXPKjZp0vX8Drky5OOQQ0qdTd1Xe_o8QBEVpP0e1vdYlBArJzjsyfpWVEZuhaLpVcid-pmPvkCjQpntoiR2uig_eQGOqymB2ec_uJjy_w0Hs_Ry-I3F1MPIjprTUaijQpVyDVxwofLdgRNI7T4nY1_DKhsSR9B-Uk13t4NUhzaHUgQybHISueNsR_J-Rbkr03t1Hrtbmu4AwFBcXz0fHn-0eBshkZxTVI1k5sj1sSzKgKSZv3VC8SESE0REUaKzZ9XB-rUHXD=s1024-rj" 
-++ b/commit_message.txt
 - Updated the Instagram icon link in `b/views/index.ejs`
 - Added a link to the certificates section on the homepage at `b/index.html`
 - Updated CSS styles for the certificates section and the certificates' grid layout at `b/styles.css`
@@ -27,3 +12,10 @@
                 <img src="https://drive.google.com/uc?export=view&id=17Pk-solAeknhhLWCVJAVeCsNhPibts0x" 
 ++ b/views/index.ejs
                 <img src="https://drive.google.com/uc?export=view&id=17Pk-solAeknhhLWCVJAVeCsNhPibts0x" 
+++ b/commit_message.txt
+ Here is the generated commit message as a bullet list:
+
+- Changed the Instagram icon image source in `b/index.html` and `b/views/index.ejs`
+- The new Instagram icon image URL is located at "https://drive.google.com/uc?export=view&id=17Pk-solAeknhhLWCVJAVeCsNhPibts0x"
+++ b/server.js
+app.use(express.static(path.join(__dirname))); // Serve static files from root directory

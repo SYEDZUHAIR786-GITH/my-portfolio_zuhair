@@ -1,12 +1,9 @@
- Here is the generated commit message as a bullet list:
-
-- Updated the Instagram icon link in `b/views/index.ejs`
-- Added a link to the certificates section on the homepage at `b/index.html`
+ - Updated the Instagram icon link in `b/views/index.ejs` and added a new one in `b/index.html`
+- Changed the Instagram icon image source URL to "https://drive.google.com/uc?export=view&id=17Pk-solAeknhhLWCVJAVeCsNhPibts0x"
 - Updated CSS styles for the certificates section and the certificates' grid layout at `b/styles.css`
 - Modified the header and footer files with necessary changes related to the certificates section in `b/header.ejs` and `b/footer.ejs` respectively
-- Added a new file for storing the certificate images at `b/certificate_images/`
+- Added a new file for storing certificate images at `b/certificate_images/`
 - Moved the Instagram icon image from `b/img/` to `b/views/index.ejs`
 - Updated the favicon image with a new design in `b/favicon.ico`
-- Changed the Instagram icon image source in `b/index.html` and `b/views/index.ejs`
-- The new Instagram icon image URL is located at "https://drive.google.com/uc?export=view&id=17Pk-solAeknhhLWCVJAVeCsNhPibts0x"
+- Added server configuration for serving static files from root directory (if applicable, based on provided file path)
 
