@@ -1,3 +1,18 @@
+++ b/certificates.html
+                            <h3>Full Stack (MERN) Traineeship</h3>
+                            Full Stack (MERN) Traineeship certificate from Maiyyam. Comprehensive training in MongoDB, Express.js, React.js, and Node.js. Building complete full-stack web applications with modern technologies.
+                            <span class="tech-badge">Express.js</span>
+                            <span class="tech-badge">React.js</span>
+                            <span class="tech-badge">Node.js</span>
+                            <span class="tech-badge">Maiyyam</span>
+                        <a href="https://media.licdn.com/dms/image/v2/D5622AQFrKroM8o0RyQ/feedshare-shrink_800/B56ZuYSsCZJAAg-/0/1767786595566?e=1770854400&v=beta&t=7ntk2U_tzf75XIFQinNyylsYDYBy6eP7QWf5KxCXlRE" target="_blank" class="project-link">
+                            <h3>UI/UX Traineeship</h3>
+                            UI/UX Traineeship certificate from Maiyyam. In-depth training on user interface and user experience design, design thinking, prototyping, and creating intuitive digital products.
+                            <span class="tech-badge">Design</span>
+                            <span class="tech-badge">Prototyping</span>
+                            <span class="tech-badge">Maiyyam</span>
+                        <a href="https://media.licdn.com/dms/image/v2/D4E22AQFtWyp62Rbcow/feedshare-shrink_800/B4EZm_YcvYHEAg-/0/1759852482622?e=1770854400&v=beta&t=H-OzMamxONJoGlz7-8Xev06ORNwXcIg4PGOuZE_-Lcc" target="_blank" class="project-link">
+++ b/changes.txt
 ++ b/about.html
                 <a href="portfoliocertificates.html" class="nav-link">Certificates</a>
 ++ b/certificates.html
@@ -198,11 +213,6 @@
 </body>
 </html>
 ++ b/changes.txt
-++ b/.gitignore
-node_modules/
-.DS_Store
-*.log
-package-lock.json
 ++ b/commit_message.txt
  - Remove `node_modules` folder from Git ignore
 - Exclude `.DS_Store` files
@@ -402,3 +412,28 @@ app.get('/certificates', (req, res) => {
                 <a href="/certificates" class="nav-link">Certificates</a>
 ++ b/views/skills.ejs
                 <a href="/certificates" class="nav-link">Certificates</a>
+++ b/commit_message.txt
+ This commit adds a new section to the portfolio website for showcasing completed certificates, including information about each certificate such as its name, technology used, completion status, and a link to view the actual certificate. The certificates listed include:
+
+1. UI/UX Webinar (Completed) - Covering user experience design principles, brand monk academy
+2. Machine Learning Basics (Completed) - Fundamentals of machine learning using Python and scikit-learn
+3. Web Development Bootcamp (Completed) - Full-stack web development course covering frontend technologies, backend with Node.js/Express, database management, RESTful APIs, and deployment strategies
+4. Advanced JavaScript (Completed) - Deep dive into advanced JavaScript concepts like closures, prototypes, async/await, promises, callbacks, higher-order functions, and functional programming paradigms
+5. UI/UX Design Principles (Completed) - Understanding user experience design, wireframing, prototyping, usability testing, accessibility standards, and design systems
+6. Cloud & Deployment (Completed) - Covering cloud computing fundamentals including AWS/Firebase deployment, containerization with Docker, CI/CD pipelines, version control with Git, and best practices for production environments.
+
+Each certificate is displayed as an article in the projects grid, with a project header, description, technology badges, and a link to view the certificate.
+++ b/views/certificates.ejs
+                            <h3>Full Stack (MERN) Traineeship</h3>
+                            Full Stack (MERN) Traineeship certificate from Maiyyam. Comprehensive training in MongoDB, Express.js, React.js, and Node.js. Building complete full-stack web applications with modern technologies.
+                            <span class="tech-badge">Express.js</span>
+                            <span class="tech-badge">React.js</span>
+                            <span class="tech-badge">Node.js</span>
+                            <span class="tech-badge">Maiyyam</span>
+                            <a href="https://media.licdn.com/dms/image/v2/D5622AQFrKroM8o0RyQ/feedshare-shrink_800/B56ZuYSsCZJAAg-/0/1767786595566?e=1770854400&v=beta&t=7ntk2U_tzf75XIFQinNyylsYDYBy6eP7QWf5KxCXlRE" target="_blank" class="link-btn">View Certificate</a>
+                            <h3>UI/UX Traineeship</h3>
+                            UI/UX Traineeship certificate from Maiyyam. In-depth training on user interface and user experience design, design thinking, prototyping, and creating intuitive digital products.
+                            <span class="tech-badge">Design</span>
+                            <span class="tech-badge">Prototyping</span>
+                            <span class="tech-badge">Maiyyam</span>
+                            <a href="https://media.licdn.com/dms/image/v2/D4E22AQFtWyp62Rbcow/feedshare-shrink_800/B4EZm_YcvYHEAg-/0/1759852482622?e=1770854400&v=beta&t=H-OzMamxONJoGlz7-8Xev06ORNwXcIg4PGOuZE_-Lcc" target="_blank" class="link-btn">View Certificate</a>

@@ -1,11 +1,7 @@
- This commit adds a new section to the portfolio website for showcasing completed certificates, including information about each certificate such as its name, technology used, completion status, and a link to view the actual certificate. The certificates listed include:
+ This commit adds a new section to the portfolio website for showcasing completed certificates. The certificates listed include:
 
-1. UI/UX Webinar (Completed) - Covering user experience design principles, brand monk academy
-2. Machine Learning Basics (Completed) - Fundamentals of machine learning using Python and scikit-learn
-3. Web Development Bootcamp (Completed) - Full-stack web development course covering frontend technologies, backend with Node.js/Express, database management, RESTful APIs, and deployment strategies
-4. Advanced JavaScript (Completed) - Deep dive into advanced JavaScript concepts like closures, prototypes, async/await, promises, callbacks, higher-order functions, and functional programming paradigms
-5. UI/UX Design Principles (Completed) - Understanding user experience design, wireframing, prototyping, usability testing, accessibility standards, and design systems
-6. Cloud & Deployment (Completed) - Covering cloud computing fundamentals including AWS/Firebase deployment, containerization with Docker, CI/CD pipelines, version control with Git, and best practices for production environments.
+1. Full Stack (MERN) Traineeship from Maiyyam - Comprehensive training in MongoDB, Express.js, React.js, and Node.js. Building complete full-stack web applications with modern technologies.
+2. UI/UX Traineeship from Maiyyam - In-depth training on user interface and user experience design, design thinking, prototyping, and creating intuitive digital products.
 
-Each certificate is displayed as an article in the projects grid, with a project header, description, technology badges, and a link to view the certificate.
+Each certificate is displayed as an article in the projects grid, with a project header, description, technology badges, and a link to view the certificate. The code also includes the necessary HTML, CSS, and JavaScript code for rendering the certificates on the page.
 
