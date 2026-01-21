@@ -1,8 +1,6 @@
- Here's a list of the changes made in the commit:
+ Here's the updated commit message as a bullet list:
 
 - Updated Instagram icon image source in both `b/index.html` and `b/views/index.ejs`. New URL: "https://drive.google.com/uc?export=view&id=17Pk-solAeknhhLWCVJAVeCsNhPibts0x"
-- Modified navigation structure and sizes in `b/style.css`. Changes include adjustments to `flex-wrap`, `width`, `font-size`, and `padding` properties for various classes to improve layout and readability.
-- Updated the profile image source URL for "Zuhair Shah" in `b/about.html` to "https://media.licdn.com/dms/image/v2/D4D03AQGZduuHCUBYUQ/profile-displayphoto-scale_400_400/B4DZjBvEZKGgAo-/0/1755596999823?e=1770854400&v=beta&t=YzWzFufR8Kjr4DLyAewH2XEtWkesx6qEb1LGh8mB_RM"
 - In `b/style.css`, set width, height, border-radius, overflow, and border properties for the main profile image, as well as for the container holding it (`.about-image .profile-image-container`). Properties include: width: 280px; height: 280px; flex-shrink: 0; border-radius: 50%; overflow: hidden; border: 4px solid var(--accent); display: block.
 - In `b/style.css`, set width, height, and box-shadow properties for the about image profile container (`.about-image .profile-image-container`). Properties include: width: 200px; height: 200px; box-shadow: 0 0 60px rgba(168, 85, 247, 0.3); display: block.
 
