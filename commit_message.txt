@@ -7,4 +7,11 @@
 - Modified `b/commit_message.txt` with updated details of changes made
 - Updated views/certificates.ejs for rendering the certificates on the page
 - Modified b/index.html and b/views/index.ejs with an image source update for Instagram icon link in `b/views/certificates.ejs`
+- Updated the Instagram icon link in `b/views/index.ejs`
+- Added a link to the certificates section on the homepage at `b/index.html`
+- Updated CSS styles for the certificates section and the certificates' grid layout at `b/styles.css`
+- Modified the header and footer files with necessary changes related to the certificates section in `b/header.ejs` and `b/footer.ejs` respectively
+- Added a new file for storing the certificate images at `b/certificate_images/`
+- Moved the Instagram icon image from `b/img/` to `b/views/index.ejs`
+- Updated the favicon image with a new design in `b/favicon.ico`
 
