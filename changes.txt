@@ -1,14 +1,6 @@
 ++ b/changes.txt
 ++ b/changes.txt
 ++ b/commit_message.txt
- - Updated the profile image source URL for "Zuhair Shah" in `b/about.html` to "https://media.licdn.com/dms/image/v2/D4D03AQGZduuHCUBYUQ/profile-displayphoto-scale_400_400/B4DZjBvEZKGgAo-/0/1755596999823?e=1770854400&v=beta&t=YzWzFufR8Kjr4DLyAewH2XEtWkesx6qEb1LGh8mB_RM"
-- Added a new "Frontend Developer", "AI/ML Enthusiast", and "UI/UX Designer" to the `b/views/index.ejs` profile description.
-- Made styling adjustments to the about image container in both `b/about.html` and `b/style.css`. The changes include adjusting the width, height, border, and box-shadow properties for improved appearance.
-- Added a new `b/views/about.ejs` file to display additional information about the user's profile. This includes the updated profile image and descriptions of the user's skills and interests.
-++ b/style.css
-/* Fallback for old img selector */
-    display: none;
-++ b/commit_message.txt
  - Updated Instagram icon image source in both `b/index.html` and `b/views/index.ejs`, using the new URL: "https://drive.google.com/uc?export=view&id=17Pk-solAeknhhLWCVJAVeCsNhPibts0x"
 - Modified navigation structure and sizes in `b/style.css`. Changes include adjustments to `flex-wrap`, `width`, `font-size`, and `padding` properties for various classes to improve layout and readability.
 - Updated the profile image source URL for "Zuhair Shah" in `b/about.html` to "https://media.licdn.com/dms/image/v2/D4D03AQGZduuHCUBYUQ/profile-displayphoto-scale_400_400/B4DZjBvEZKGgAo-/0/1755596999823?e=1770854400&v=beta&t=YzWzFufR8Kjr4DLyAewH2XEtWkesx6qEb1LGh8mB_RM"
@@ -25,3 +17,15 @@
         height: 200px;
     }
 
+++ b/commit_message.txt
+- In `b/style.css`, set width, height, border-radius, overflow, and border properties for the main profile image, as well as for the container holding it (`.about-image .profile-image-container`). Properties include: width: 280px; height: 280px; flex-shrink: 0; border-radius: 50%; overflow: hidden; border: 4px solid var(--accent); display: block.
+++ b/style.css
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    flex-shrink: 0;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 60px rgba(168, 85, 247, 0.3);
+    display: block;
