@@ -1,4 +1,8 @@
- - Updated Instagram icon image source in `b/index.html` and `b/views/index.ejs` to use a new URL: "https://drive.google.com/uc?export=view&id=17Pk-solAeknhhLWCVJAVeCsNhPibts0x"
+ Here's a commit message in the requested bullet list format, with each change listed individually:
+
+- Updated Instagram icon link in `b/views/index.ejs` and added a new one in `b/index.html`
+- Changed the Instagram icon image source URL to "https://drive.google.com/uc?export=view&id=17Pk-solAeknhhLWCVJAVeCsNhPibts0x"
 - Added a new directory for storing certificate images at `b/certificate_images/`
 - Modified server configuration to serve static files from the root directory by adding the following line in `b/server.js`: `app.use(express.static(path.join(__dirname)));` (if applicable, based on provided file path)
+- Made styling adjustments to the navigation structure and sizes in `b/style.css`. The `flex-wrap`, `width`, `font-size`, and `padding` properties have been modified for various classes to improve layout and readability.
 
