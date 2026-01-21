@@ -1,14 +1,5 @@
 ++ b/changes.txt
 ++ b/commit_message.txt
- - Updated the Instagram icon link in `b/views/index.ejs` and added a new one in `b/index.html`
-- Changed the Instagram icon image source URL to "https://drive.google.com/uc?export=view&id=17Pk-solAeknhhLWCVJAVeCsNhPibts0x"
-- Added a new file for storing certificate images at `b/certificate_images/`
-- Added server configuration for serving static files from root directory (if applicable, based on provided file path)
-++ b/index.html
-                <img src="https://media.licdn.com/dms/image/v2/D4D03AQGZduuHCUBYUQ/profile-displayphoto-scale_400_400/B4DZjBvEZKGgAo-/0/1755596999823?e=1770854400&v=beta&t=YzWzFufR8Kjr4DLyAewH2XEtWkesx6qEb1LGh8mB_RM" 
-++ b/views/index.ejs
-                <img src="https://media.licdn.com/dms/image/v2/D4D03AQGZduuHCUBYUQ/profile-displayphoto-scale_400_400/B4DZjBvEZKGgAo-/0/1755596999823?e=1770854400&v=beta&t=YzWzFufR8Kjr4DLyAewH2XEtWkesx6qEb1LGh8mB_RM" 
-++ b/commit_message.txt
  - Updated Instagram icon image source in `b/index.html` and `b/views/index.ejs` to use a new URL: "https://drive.google.com/uc?export=view&id=17Pk-solAeknhhLWCVJAVeCsNhPibts0x"
 - Added a new directory for storing certificate images at `b/certificate_images/`
 - Modified server configuration to serve static files from the root directory by adding the following line in `b/server.js`: `app.use(express.static(path.join(__dirname)));` (if applicable, based on provided file path)
@@ -64,3 +55,11 @@
         padding: 0.4rem 0.6rem;
     }
 
+++ b/commit_message.txt
+ Here's a commit message in the requested bullet list format, with each change listed individually:
+
+- Updated Instagram icon link in `b/views/index.ejs` and added a new one in `b/index.html`
+- Changed the Instagram icon image source URL to "https://drive.google.com/uc?export=view&id=17Pk-solAeknhhLWCVJAVeCsNhPibts0x"
+- Made styling adjustments to the navigation structure and sizes in `b/style.css`. The `flex-wrap`, `width`, `font-size`, and `padding` properties have been modified for various classes to improve layout and readability.
+++ b/views/index.ejs
+                Frontend Developer | AI/ML Enthusiast | UI/UX Designer
