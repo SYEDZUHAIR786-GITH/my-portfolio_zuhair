@@ -1,45 +1,5 @@
 ++ b/changes.txt
-++ b/about.html
-                        <div class="profile-image-container">
-                            <img src="https://media.licdn.com/dms/image/v2/D4D03AQGZduuHCUBYUQ/profile-displayphoto-scale_400_400/B4DZjBvEZKGgAo-/0/1755596999823?e=1770854400&v=beta&t=YzWzFufR8Kjr4DLyAewH2XEtWkesx6qEb1LGh8mB_RM" 
-                                 alt="Zuhair Shah" class="profile-image">
-                        </div>
-++ b/commit_message.txt
- - Updated Instagram icon image source in both `b/index.html` and `b/views/index.ejs`, using the new URL: "https://drive.google.com/uc?export=view&id=17Pk-solAeknhhLWCVJAVeCsNhPibts0x"
-- Modified the navigation structure and sizes in `b/style.css`. Changes include adjustments to `flex-wrap`, `width`, `font-size`, and `padding` properties for various classes to improve layout and readability.
-++ b/style.css
-.about-image {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.about-image .profile-image-container {
-    position: relative;
-    width: 300px;
-    height: 300px;
-}
-
-.about-image .profile-image {
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    border: 3px solid var(--accent);
-    object-fit: cover;
-    box-shadow: 0 0 60px rgba(168, 85, 247, 0.3);
-    transition: all var(--transition-slow);
-}
-
-.about-image .profile-image:hover {
-    transform: scale(1.05);
-    box-shadow: 0 0 80px rgba(168, 85, 247, 0.5);
-}
-
-++ b/views/about.ejs
-                        <div class="profile-image-container">
-                            <img src="https://media.licdn.com/dms/image/v2/D4D03AQGZduuHCUBYUQ/profile-displayphoto-scale_400_400/B4DZjBvEZKGgAo-/0/1755596999823?e=1770854400&v=beta&t=YzWzFufR8Kjr4DLyAewH2XEtWkesx6qEb1LGh8mB_RM" 
-                                 alt="Zuhair Shah" class="profile-image">
-                        </div>
+++ b/changes.txt
 ++ b/commit_message.txt
  - Updated the profile image source URL for "Zuhair Shah" in `b/about.html` to "https://media.licdn.com/dms/image/v2/D4D03AQGZduuHCUBYUQ/profile-displayphoto-scale_400_400/B4DZjBvEZKGgAo-/0/1755596999823?e=1770854400&v=beta&t=YzWzFufR8Kjr4DLyAewH2XEtWkesx6qEb1LGh8mB_RM"
 - Added a new "Frontend Developer", "AI/ML Enthusiast", and "UI/UX Designer" to the `b/views/index.ejs` profile description.
@@ -48,3 +8,20 @@
 ++ b/style.css
 /* Fallback for old img selector */
     display: none;
+++ b/commit_message.txt
+ - Updated Instagram icon image source in both `b/index.html` and `b/views/index.ejs`, using the new URL: "https://drive.google.com/uc?export=view&id=17Pk-solAeknhhLWCVJAVeCsNhPibts0x"
+- Modified navigation structure and sizes in `b/style.css`. Changes include adjustments to `flex-wrap`, `width`, `font-size`, and `padding` properties for various classes to improve layout and readability.
+- Updated the profile image source URL for "Zuhair Shah" in `b/about.html` to "https://media.licdn.com/dms/image/v2/D4D03AQGZduuHCUBYUQ/profile-displayphoto-scale_400_400/B4DZjBvEZKGgAo-/0/1755596999823?e=1770854400&v=beta&t=YzWzFufR8Kjr4DLyAewH2XEtWkesx6qEb1LGh8mB_RM"
+++ b/style.css
+    width: 280px;
+    height: 280px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 4px solid var(--accent);
+    display: block;
+    .about-image .profile-image-container {
+        width: 200px;
+        height: 200px;
+    }
+
