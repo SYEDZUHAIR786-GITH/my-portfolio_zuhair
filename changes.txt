@@ -1,60 +1,9 @@
+++ b/about.html
+                        <div class="profile-image-container">
+                            <img src="https://media.licdn.com/dms/image/v2/D4D03AQGZduuHCUBYUQ/profile-displayphoto-scale_400_400/B4DZjBvEZKGgAo-/0/1755596999823?e=1770854400&v=beta&t=YzWzFufR8Kjr4DLyAewH2XEtWkesx6qEb1LGh8mB_RM" 
+                                 alt="Zuhair Shah" class="profile-image">
+                        </div>
 ++ b/changes.txt
-++ b/commit_message.txt
- - Updated Instagram icon image source in `b/index.html` and `b/views/index.ejs` to use a new URL: "https://drive.google.com/uc?export=view&id=17Pk-solAeknhhLWCVJAVeCsNhPibts0x"
-- Added a new directory for storing certificate images at `b/certificate_images/`
-- Modified server configuration to serve static files from the root directory by adding the following line in `b/server.js`: `app.use(express.static(path.join(__dirname)));` (if applicable, based on provided file path)
-++ b/style.css
-    .nav-container {
-        flex-wrap: wrap;
-    .nav-brand {
-        width: 100%;
-        font-size: var(--font-size-base);
-        margin-bottom: var(--spacing-sm);
-    }
-
-    .nav-links {
-        gap: var(--spacing-sm);
-        flex-wrap: wrap;
-        justify-content: center;
-        width: 100%;
-    }
-
-        font-size: 0.75rem;
-        padding: var(--spacing-xs) var(--spacing-sm);
-    .hero-content {
-        padding: 0;
-    }
-
-        width: 120px;
-        height: 120px;
-        font-size: 1.5rem;
-        line-height: 1.2;
-        font-size: 0.95rem;
-        font-size: 0.95rem;
-        padding: 1rem;
-    .nav-container {
-        flex-direction: column;
-        padding: var(--spacing-sm);
-    }
-
-    .nav-brand {
-        text-align: center;
-        width: 100%;
-        margin-bottom: var(--spacing-sm);
-        font-size: 0.95rem;
-    }
-
-    .nav-links {
-        gap: 0.5rem;
-        width: 100%;
-        justify-content: center;
-    }
-
-    .nav-link {
-        font-size: 0.65rem;
-        padding: 0.4rem 0.6rem;
-    }
-
 ++ b/commit_message.txt
  Here's a commit message in the requested bullet list format, with each change listed individually:
 
@@ -63,3 +12,39 @@
 - Made styling adjustments to the navigation structure and sizes in `b/style.css`. The `flex-wrap`, `width`, `font-size`, and `padding` properties have been modified for various classes to improve layout and readability.
 ++ b/views/index.ejs
                 Frontend Developer | AI/ML Enthusiast | UI/UX Designer
+++ b/commit_message.txt
+ - Updated Instagram icon image source in both `b/index.html` and `b/views/index.ejs`, using the new URL: "https://drive.google.com/uc?export=view&id=17Pk-solAeknhhLWCVJAVeCsNhPibts0x"
+- Modified the navigation structure and sizes in `b/style.css`. Changes include adjustments to `flex-wrap`, `width`, `font-size`, and `padding` properties for various classes to improve layout and readability.
+++ b/style.css
+.about-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-image .profile-image-container {
+    position: relative;
+    width: 300px;
+    height: 300px;
+}
+
+.about-image .profile-image {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 3px solid var(--accent);
+    object-fit: cover;
+    box-shadow: 0 0 60px rgba(168, 85, 247, 0.3);
+    transition: all var(--transition-slow);
+}
+
+.about-image .profile-image:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 80px rgba(168, 85, 247, 0.5);
+}
+
+++ b/views/about.ejs
+                        <div class="profile-image-container">
+                            <img src="https://media.licdn.com/dms/image/v2/D4D03AQGZduuHCUBYUQ/profile-displayphoto-scale_400_400/B4DZjBvEZKGgAo-/0/1755596999823?e=1770854400&v=beta&t=YzWzFufR8Kjr4DLyAewH2XEtWkesx6qEb1LGh8mB_RM" 
+                                 alt="Zuhair Shah" class="profile-image">
+                        </div>

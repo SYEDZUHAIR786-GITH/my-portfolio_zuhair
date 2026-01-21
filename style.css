@@ -548,12 +548,9 @@ body {
     box-shadow: 0 0 80px rgba(168, 85, 247, 0.5);
 }
 
+/* Fallback for old img selector */
 .about-image img {
-    width: 100%;
-    border-radius: 50%;
-    border: 2px solid var(--accent);
-    box-shadow: 0 0 60px rgba(56, 189, 248, 0.2);
-    transition: all var(--transition-slow);
+    display: none;
 }
 
 .about-image img:hover {
