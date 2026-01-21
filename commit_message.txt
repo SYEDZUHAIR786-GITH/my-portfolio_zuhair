@@ -1,6 +1,4 @@
- Here's the updated commit message as a bullet list:
-
-- Updated Instagram icon image source in both `b/index.html` and `b/views/index.ejs`. New URL: "https://drive.google.com/uc?export=view&id=17Pk-solAeknhhLWCVJAVeCsNhPibts0x"
-- In `b/style.css`, set width, height, border-radius, overflow, and border properties for the main profile image, as well as for the container holding it (`.about-image .profile-image-container`). Properties include: width: 280px; height: 280px; flex-shrink: 0; border-radius: 50%; overflow: hidden; border: 4px solid var(--accent); display: block.
-- In `b/style.css`, set width, height, and box-shadow properties for the about image profile container (`.about-image .profile-image-container`). Properties include: width: 200px; height: 200px; box-shadow: 0 0 60px rgba(168, 85, 247, 0.3); display: block.
+ - Updated Instagram icon image source in both `b/index.html` and `b/views/index.ejs`. New URL: "https://drive.google.com/uc?export=view&id=17Pk-solAeknhhLWCVJAVeCsNhPibts0x"
+- Modified CSS properties for the about image profile container (`.about-image .profile-image-container`) in `b/style.css`. Properties include: width: 280px; height: 280px; aspect-ratio: 1 / 1; flex-shrink: 0; width: 100%; height: 100%.
+- In `b/style.css`, added box-shadow property for the about image profile container (`.about-image .profile-image-container`). Property includes: box-shadow: 0 0 60px rgba(168, 85, 247, 0.3); display: block.
 
