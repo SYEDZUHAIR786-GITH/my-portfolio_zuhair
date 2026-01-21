@@ -1,12 +1,5 @@
- - Added a new section for showcasing completed certificates in `b/certificates.html`
-- Incorporated Full Stack (MERN) Traineeship certificate from Maiyyam in `b/certificates.html`
-- Included UI/UX Traineeship certificate from Maiyyam in `b/certificates.html`
-- Each certificate is displayed as an article in the projects grid with project header, description, technology badges, and link to view the certificate in `b/certificates.html`
-- Updated `b/changes.txt` for documentation purposes
-- Added necessary HTML, CSS, and JavaScript code for displaying the certificates in `b/certificates.html`
-- Modified `b/commit_message.txt` with updated details of changes made
-- Updated views/certificates.ejs for rendering the certificates on the page
-- Modified b/index.html and b/views/index.ejs with an image source update for Instagram icon link in `b/views/certificates.ejs`
+ Here is the generated commit message as a bullet list:
+
 - Updated the Instagram icon link in `b/views/index.ejs`
 - Added a link to the certificates section on the homepage at `b/index.html`
 - Updated CSS styles for the certificates section and the certificates' grid layout at `b/styles.css`
@@ -14,4 +7,6 @@
 - Added a new file for storing the certificate images at `b/certificate_images/`
 - Moved the Instagram icon image from `b/img/` to `b/views/index.ejs`
 - Updated the favicon image with a new design in `b/favicon.ico`
+- Changed the Instagram icon image source in `b/index.html` and `b/views/index.ejs`
+- The new Instagram icon image URL is located at "https://drive.google.com/uc?export=view&id=17Pk-solAeknhhLWCVJAVeCsNhPibts0x"
 
