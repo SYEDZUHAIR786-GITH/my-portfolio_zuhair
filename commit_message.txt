@@ -1,8 +1,10 @@
- - Added a new section for showcasing completed certificates
+ Here's the commit message as a bullet list:
+
+- Added a new section for showcasing completed certificates
 - Included Full Stack (MERN) Traineeship certificate from Maiyyam
 - Included UI/UX Traineeship certificate from Maiyyam
 - Each certificate is displayed as an article in the projects grid with project header, description, technology badges, and link to view the certificate
-- Updated views/certificates.ejs for rendering the certificates on the page
+- Updated `views/certificates.ejs` for rendering the certificates on the page
 - Added necessary HTML, CSS, and JavaScript code for displaying the certificates
-- Modified b/index.html and b/views/index.ejs with an image source update
+- Modified `b/index.html` and `b/views/index.ejs` with an image source update
 
