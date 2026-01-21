@@ -26,6 +26,10 @@ app.get('/skills', (req, res) => {
     res.render('skills', { title: 'Skills | Zuhair Shah' });
 });
 
+app.get('/certificates', (req, res) => {
+    res.render('certificates', { title: 'Certificates | Zuhair Shah' });
+});
+
 app.get('/contact', (req, res) => {
     res.render('contact', { title: 'Contact | Zuhair Shah' });
 });

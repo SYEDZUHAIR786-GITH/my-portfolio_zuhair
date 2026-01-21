@@ -1,0 +1,5 @@
+ - Remove `node_modules` folder from Git ignore
+- Exclude `.DS_Store` files
+- Ignore all `*.log` files
+- Exclude `package-lock.json` file
+
