@@ -1,17 +1,9 @@
+++ b/changes.txt
 ++ b/about.html
                         <div class="profile-image-container">
                             <img src="https://media.licdn.com/dms/image/v2/D4D03AQGZduuHCUBYUQ/profile-displayphoto-scale_400_400/B4DZjBvEZKGgAo-/0/1755596999823?e=1770854400&v=beta&t=YzWzFufR8Kjr4DLyAewH2XEtWkesx6qEb1LGh8mB_RM" 
                                  alt="Zuhair Shah" class="profile-image">
                         </div>
-++ b/changes.txt
-++ b/commit_message.txt
- Here's a commit message in the requested bullet list format, with each change listed individually:
-
-- Updated Instagram icon link in `b/views/index.ejs` and added a new one in `b/index.html`
-- Changed the Instagram icon image source URL to "https://drive.google.com/uc?export=view&id=17Pk-solAeknhhLWCVJAVeCsNhPibts0x"
-- Made styling adjustments to the navigation structure and sizes in `b/style.css`. The `flex-wrap`, `width`, `font-size`, and `padding` properties have been modified for various classes to improve layout and readability.
-++ b/views/index.ejs
-                Frontend Developer | AI/ML Enthusiast | UI/UX Designer
 ++ b/commit_message.txt
  - Updated Instagram icon image source in both `b/index.html` and `b/views/index.ejs`, using the new URL: "https://drive.google.com/uc?export=view&id=17Pk-solAeknhhLWCVJAVeCsNhPibts0x"
 - Modified the navigation structure and sizes in `b/style.css`. Changes include adjustments to `flex-wrap`, `width`, `font-size`, and `padding` properties for various classes to improve layout and readability.
@@ -48,3 +40,11 @@
                             <img src="https://media.licdn.com/dms/image/v2/D4D03AQGZduuHCUBYUQ/profile-displayphoto-scale_400_400/B4DZjBvEZKGgAo-/0/1755596999823?e=1770854400&v=beta&t=YzWzFufR8Kjr4DLyAewH2XEtWkesx6qEb1LGh8mB_RM" 
                                  alt="Zuhair Shah" class="profile-image">
                         </div>
+++ b/commit_message.txt
+ - Updated the profile image source URL for "Zuhair Shah" in `b/about.html` to "https://media.licdn.com/dms/image/v2/D4D03AQGZduuHCUBYUQ/profile-displayphoto-scale_400_400/B4DZjBvEZKGgAo-/0/1755596999823?e=1770854400&v=beta&t=YzWzFufR8Kjr4DLyAewH2XEtWkesx6qEb1LGh8mB_RM"
+- Added a new "Frontend Developer", "AI/ML Enthusiast", and "UI/UX Designer" to the `b/views/index.ejs` profile description.
+- Made styling adjustments to the about image container in both `b/about.html` and `b/style.css`. The changes include adjusting the width, height, border, and box-shadow properties for improved appearance.
+- Added a new `b/views/about.ejs` file to display additional information about the user's profile. This includes the updated profile image and descriptions of the user's skills and interests.
+++ b/style.css
+/* Fallback for old img selector */
+    display: none;
